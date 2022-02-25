@@ -1,0 +1,6 @@
+p{
+    background-image: url(./images/my-bg.png) ,url(./images/jhankar2.png);
+    background-repeat:no-repeat , no-repeat;
+    background-size: 200px;
+    background-position:60%, 30%, 40%,10% right center;
+}
