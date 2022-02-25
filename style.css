@@ -1,13 +1,16 @@
-
 .fahim{
-    width: 400px;
+    border: 2px solid red;
+    width: 200px;
+    float: left;
     
-    
-    border: 20px solid red;
-    margin-top: 100px;
-    padding: 200px;
-    box-sizing:border-box;
-
-    
-    
+}
+.pp{
+    border: 2px solid blue;
+    width: 300px;
+    float:left;
+}
+.ss{
+    border: 2px solid yellowgreen;
+    width: 200px;
+    float: right;
 }
