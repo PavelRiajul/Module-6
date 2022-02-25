@@ -1,10 +1,13 @@
-p{
-    width: 600px;
-    height: 600px;
-    border-width: 2px 5px 10px 7px;
-    border-style: solid dotted double dashed;
-    border-color: aqua red blue yellowgreen;
+
+.fahim{
+    width: 400px;
     
-   
+    
+    border: 20px solid red;
+    margin-top: 100px;
+    padding: 200px;
+    box-sizing:border-box;
+
+    
     
 }
