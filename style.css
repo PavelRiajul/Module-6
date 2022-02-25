@@ -1,19 +1,10 @@
-body{
-    background-color: antiquewhite;
-}
-.box{
+p{
     width: 600px;
     height: 600px;
-    border: 2px solid red;
-    background-image:url(./images/jhankar.png);
+    border-width: 2px 5px 10px 7px;
+    border-style: solid dotted double dashed;
+    border-color: aqua red blue yellowgreen;
     
+   
     
-    
-    
-    
-
-}p{
-    background-color: aquamarine;
-    margin-top: 200px;
-    mix-blend-mode: darken;
 }
