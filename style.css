@@ -1,9 +1,19 @@
+body{
+    background-color: antiquewhite;
+}
 .box{
-    width: 400px;
-    height: 400px;
+    width: 600px;
+    height: 600px;
     border: 2px solid red;
-    background-image: linear-gradient(to left,red,blue),url(./images/jhankar2.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-blend-mode: overlay;
+    background-image:url(./images/jhankar.png);
+    
+    
+    
+    
+    
+
+}p{
+    background-color: aquamarine;
+    margin-top: 200px;
+    mix-blend-mode: darken;
 }
