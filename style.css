@@ -1,16 +1,22 @@
-.fahim{
-    border: 2px solid red;
-    width: 200px;
-    float: left;
+
+body{
+    background-color: blanchedalmond;
+}.box{
+    border: 5px solid red;
+    border-style: double dotted groove dashed;
+    border-radius: 20px 90px 40px 60px;
+    width: 800px; 
+    height: 600px;
+    background-image: linear-gradient(to right,blue,yellow) , url(./images/jhankar2.png);
+    background-repeat: no-repeat;
+    background-blend-mode:color-dodge;
+  
+  
     
 }
-.pp{
-    border: 2px solid blue;
-    width: 300px;
-    float:left;
-}
-.ss{
-    border: 2px solid yellowgreen;
-    width: 200px;
-    float: right;
+h1{
+    background-color: rgb(0, 255, 76);
+    text-align: center;
+    margin-top: 200px;
+    mix-blend-mode:hue;
 }
