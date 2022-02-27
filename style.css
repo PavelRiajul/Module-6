@@ -1,24 +1,37 @@
-.box{
-    width: 200px;
-    height: 200px;
-    background-color: grey;
-    margin: 100px 0px 0px 100px;
-    perspective: 800px;
-    transform: rotateY(30deg);
+.card{
+    width: 300px;
+    height: 300px;
+    border: 2px solid red;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin:-150px;
+    perspective: 600px;
+}
+.card:hover .content{
+    transform: rotateY(180deg);
+}
+.content{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: 2s;
     transform-style: preserve-3d;
-
-    
 }
-.pavel{
-    width: 200px;
-    height: 200px;
-    background-color: blue;
-    transform: rotateX(60deg);
-    transform-origin: bottom;
-    transition: 3s;
+.front,
+.back{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgb(136, 56, 56);
+    color: tomato;
+    font-size: 60px;
+    line-height: 300px;
+    backface-visibility: hidden;
 }
-.pavel:hover{
-    transform: rotateX(380deg);
-    
-    
+.back{
+    background-color: tomato;
+    color: #fff;
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
 }
