@@ -1,10 +1,33 @@
+div{
+    width: 100px;
+    height: 100px;
+    transition-property: all;
+    transition-delay: 0.3s;
+    transition-duration: 2s;
+    transition-timing-function:ease-in-out;
+
+}
 .box1{
-    width: 400px;
-    height: 400px;
-    border: 2px solid red;
-    background-color: bisque;
-    text-align: center;
-    margin-top: 100px;
-    margin-left: 100px;
-    cursor: e-resize;
+    background-color: aqua;
+}
+.box1:hover{
+    width: 300px;
+}
+.box2{
+    background-color: rgb(168, 168, 22);
+}
+.box2:hover{
+    width: 300px;
+}
+.box3{
+    background-color: blue;
+}
+.box3:hover{
+    width: 300px;
+}
+.box4{
+    background-color: brown;
+}
+.box4:hover{
+    width: 300px;
 }
