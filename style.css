@@ -1,14 +1,56 @@
-.boc{
-    width: 900px;
-    writing-mode:sideways-rl;
-    border: 2px solid red;
-    column-count: 5;
-    column-gap: 100px;
-    column-rule: 2px solid red;
-    
-
-
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
 }
-h1{
-    column-span: all;
+#pavel{
+    width: 900px;
+    border: 2px solid rebeccapurple;
+    background-color: aliceblue;
+    margin: 0 auto;
+}
+.header{
+    background-color: aquamarine;
+    height: 100px;
+    text-align: center;
+}
+.menu{
+    background-color: blueviolet;
+}
+.menu li{
+    display: inline-block;
+    margin-left: 20px;
+    text-decoration: none;
+    
+    
+}
+.menu ul{
+    margin: 0;
+    padding: 0;
+}
+.menu ul li a{
+    color: aliceblue;
+    
+}
+
+.footer{
+    background-color: black;
+    clear: both;
+    padding: 20px;
+}
+.content{
+    width: 600px;
+    float: left;
+    min-height:500px ;
+    padding: 0px;
+    margin-left: 00px;
+    box-sizing: border-box;
+}
+.sideber{
+    width: 200px;
+    float: right;
+    background-color: bisque;
+    min-height: 500px;
+
 }
