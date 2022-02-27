@@ -1,22 +1,14 @@
-
-body{
-    background-color: blanchedalmond;
-}.box{
-    border: 5px solid red;
-    border-style: double dotted groove dashed;
-    border-radius: 20px 90px 40px 60px;
-    width: 800px; 
-    height: 600px;
-    background-image: linear-gradient(to right,blue,yellow) , url(./images/jhankar2.png);
-    background-repeat: no-repeat;
-    background-blend-mode:color-dodge;
-  
-  
+.boc{
+    width: 900px;
+    writing-mode:sideways-rl;
+    border: 2px solid red;
+    column-count: 5;
+    column-gap: 100px;
+    column-rule: 2px solid red;
     
+
+
 }
 h1{
-    background-color: rgb(0, 255, 76);
-    text-align: center;
-    margin-top: 200px;
-    mix-blend-mode:hue;
+    column-span: all;
 }
