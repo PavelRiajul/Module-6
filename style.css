@@ -1,33 +1,43 @@
 div{
     width: 100px;
     height: 100px;
-    transition-property: all;
-    transition-delay: 0.3s;
-    transition-duration: 2s;
-    transition-timing-function:ease-in-out;
+    transition: all 2s ;
+    transition-timing-function:;
+  
 
 }
 .box1{
     background-color: aqua;
 }
-.box1:hover{
+.box1:active{
     width: 300px;
+    background-color: blue;
 }
 .box2{
     background-color: rgb(168, 168, 22);
 }
 .box2:hover{
     width: 300px;
+    background-color: aqua;
 }
 .box3{
     background-color: blue;
 }
 .box3:hover{
     width: 300px;
+    background-color:rebeccapurple ;
 }
 .box4{
     background-color: brown;
 }
 .box4:hover{
     width: 300px;
+    background-color: black;
+}
+input{
+    width: 100px;
+    margin-top: 100px;
+}
+input:focus{
+    width: 200px;
 }
