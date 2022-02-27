@@ -4,10 +4,9 @@
     background-color: grey;
     margin: 100px 0px 0px 100px;
     perspective: 800px;
-    transform: rotatey(40deg);
-transform-style: preserve-3d;
-    
-    transform-origin: bottom;
+    transform: rotateY(30deg);
+    transform-style: preserve-3d;
+
     
 }
 .pavel{
@@ -15,11 +14,11 @@ transform-style: preserve-3d;
     height: 200px;
     background-color: blue;
     transform: rotateX(60deg);
-    transform-origin:top;
+    transform-origin: bottom;
     transition: 3s;
-    
 }
 .pavel:hover{
-    transform: rotatex(380deg);
+    transform: rotateX(380deg);
+    
     
 }
