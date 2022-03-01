@@ -1,17 +1,31 @@
-.box{
+.card{
+    display: flex;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+
+.container{
     width: 300px;
     height: 300px;
-    background-color: aqua;
+    background-color: gray;
+    
+    margin-left: 100px;
+    perspective:800px;
+    transform: rotateX(30deg);
+    background-image:url(./images/./my-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.box1{
-    width: 300px;
-    height: 300px;
-    background-color: rgb(132, 0, 255);
-    display: none;
+.inner{
+    width: 100%;
+    height: 100%;
+    background-color:#37C3BE;
+    transform: rotateX(0deg);
+    transition: transform 2s;
+    transform-origin: top;
+    
+
 }
-.box2{
-    width: 300px;
-    height: 300px;
-    background-color: rgb(102, 255, 0);
-}
+.inner:hover{
+transform: rotateX(180deg);
 }
